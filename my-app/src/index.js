@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import SideLogo from './components/SideLogo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
     <Main />
-    <App />
+    <SideLogo/>
+    <Footer/>
   </React.StrictMode>
 );
 
